@@ -8,7 +8,7 @@ RUN apt update -y && apt-get install -y git nginx
 #RUN mkdir /etc/www/html
 
 # Git Repository Cloning
-RUN /usr/bin/git clone https://github.com/amitkulkarni26/dockertest.git /var/www/html3
+RUN /usr/bin/git clone https://github.com/amitkulkarni26/Amittest.git /var/www/html3
 
 RUN cd /var/www/html3/public_html/
 RUN mv /var/www/html3/public_html/* /var/www/html/
